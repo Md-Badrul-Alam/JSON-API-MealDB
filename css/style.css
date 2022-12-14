@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+   margin: 0 0 10px;
+   padding: 0;
+   font-size: 25px;
+}
+.box{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.search{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: .5s;
+    width: 500px;
+}
+input[type="text"]{
+    position: relative;
+    background: #000;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    border-radius: 25px 0 0 25px;
+    color: #fff;
+    font-size: 20px;
+}
+button[type="submit"]{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    height: 50px;
+    width: 145px;
+    background: rgb(118, 77, 77);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+button[type="submit"]:hover{
+    background: rgb(234, 69, 69);
+    
+}
+#search-result{
+    padding: 20px 0;
+    justify-content: center;
+}
+#meal-details{
+    padding-top: 200px;
+    justify-content: center;
+    
+}
